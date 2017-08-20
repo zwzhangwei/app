@@ -3,11 +3,667 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<!--自己的css样式库-->
 	<link rel="stylesheet" href="assets/css/index.css">
+	<!--小图标-->
+	<link rel="stylesheet" href="//at.alicdn.com/t/font_387737_rq3ld2w6pw4s4i.css">
+	<!--重置样式库-->
+	<link rel="stylesheet" href="assets/css/reset.css">
 </head>
 <body>
-	<h3>这是首页</h3>
-	<h3>这是列表页</h3>
-	<h3>这是详情页</h3>
+	<div class="container">
+		<!--头部开始-->
+		<div class="header">
+			<a href="javascript"><img src="assets/images/123.png"></a>
+			<ul class="nav-left">
+				<li class="one"><a href="javascript:" >首页</a></li>
+				<li class="nav-h"><a href="javascript:">目的地</a></li>
+				<li class="nav-h"><a href="javascript:">旅游攻略</a></li>
+				<li class="zyx"><a href="javascript:">自由行商城</a>
+					<!--二级菜单>
+					<ul class="xl">
+						<li><a href="javascript:">酒店+机票</a><i class="iconfont icon-hot2"></i></li>
+						<li><a href="javascript:">跟团游</li>
+						<li><a href="javascript:">当地游</li>
+						<li><a href="javascript:">国内机票</li>
+						<li><a href="javascript:">签证</li>
+						<li><a href="javascript:">国际租车</li>
+					</ul>
+					<!-结束-->
+				</li>
+				<li class="nav-h"><a href="javascript:">酒店</a></li>
+				<li class="sq"><a href="javascript:">社区</a><i class="iconfont icon-xiajiantou"></i>
+				</li>
+				<li class="nav-h"><a href="javascript:">APP</a></li>
+			</ul>
+			
+			<ul class="nav-right">
+				<li><i class="iconfont icon-weibo"></i></li>
+				<li><i class="iconfont icon-qq"></i></li>
+				<li><i class="iconfont icon-weixin"></i></li>
+				<li><a href="javascript:" class="denglu">登陆</a></li>
+				<li><a href="javascript:">注册</a></li>
+			</ul>
+		</div>
+		<!--头部结束-->
+		<!--轮播图-->
+		<div class="lunbo">
+			<ul class="big">
+				<li><a href="javascript:"><img src="assets/images/1.jpeg" alt=""></a></li>
+				<li><a href="javascript:"><img src="assets/images/2.jpeg" alt=""></a></li>
+				<li><a href=""><img src="assets/images/3.jpeg" alt=""></a></li>
+				<li><a href="javascript:"><img src="assets/images/4.jpeg" alt=""></a></li>
+				<li><a href="javascript:"><img src="assets/images/xueshan.jpeg" alt=""></a></li>
+			</ul>
+			<div class="small">
+				<ul class="small-v">
+					<li class="active"><a href="javascript:"><img src="assets/images/11.jpeg" alt="" width="104" height="62"></a></li>
+					<li><a href="javascript:"><img src="assets/images/22.jpeg" alt="" width="104"></a></li>
+					<li><a href="javascript:"><img src="assets/images/33.jpeg" alt="" width="104"></a></li>
+					<li><a href="javascript:"><img src="assets/images/4s.jpeg" alt="" width="104"></a></li>
+					<li><a href="javascript:"><img src="assets/images/xueshan1.jpeg" alt="" width="104"></a></li>
+				</ul>
+			</div>
+			<a href="#"><div class="li"></div></a>
+			<div class="riqi xianshi">
+				<h2>17/Aug.2017</h2>
+				<span>东海有座小岛，很少有人知道</span>
+			</div>
+			<div class="riqi">
+				<h2>16/Aug.2017</h2>
+				<span>法兰西8日，被地中海的阳光与音乐温柔以待</span>
+			</div>
+			<div class="riqi">
+				<h2>15/Aug.2017</h2>
+				<span>北京以北，那群经历时代变迁的火山群</span>
+			</div>
+			<div class="riqi">
+				<h2>14/Aug.2017</h2>
+				<span>梦见，一抹懒户内海蓝</span>
+			</div>
+			<div class="riqi">
+				<h2>13/Aug.2017</h2>
+				<span>北欧四国 | 虚夜星空，遇见你便是幸运</span>
+			</div>
+			<div class="seach">
+				<ul class="liebiao">
+					<li  data-index="0"><i class="yd"><span class="abc"></span></i><a href="javascript:">全部</a></li>
+					<li  data-index="1"><i class="yd"><span></span></i><a href="javascript:">酒店</a></li>
+					<li  data-index="2"><i class="yd"><span data-index="2"></span></i><a href="javascript:">目的地</a></li>
+					<li  data-index="3"><i class="yd"><span data-index="3"></span></i><a href="javascript:">自由行商城</a></li>
+				</ul>
+				<div class="seach-1 xunhuan">
+					<input type="text" placeholder="搜索目的/攻略/酒店/旅行特价">
+					<button><a href="javascript:"><i class="iconfont icon-fangdajing"></a></i></button>
+				</div>
+				<div class="seach-2 xunhuan ">
+					<input type="text" placeholder="我要去...">
+					<button><a href="javascript:"><i class="iconfont icon-fangdajing"></a></i></button>
+				</div>
+				<div class="seach-2 xunhuan ">
+					<input type="text" placeholder="国家.地区.城市名称">
+					<button><a href="javascript:"><i class="iconfont icon-fangdajing"></a></i></button>
+				</div>
+				<div class="seach-2 xunhuan ">
+					<input type="text" placeholder="产品名称/目的地/优惠">
+					<button><a href="javascript:"><i class="iconfont icon-fangdajing"></a></i></button>
+				</div>
+			</div>
+			<p class="pp">图片来自于<a href="javascript:">乌兰察布</a>，此目的地共收藏了<a href="javascript:">7427</a>张<a href="javascript:">乌兰察布</a>图片。本片由<a href="javascript:">in老板</a>荣誉出品</p>
+		</div>
+		<!--轮播图结束-->
+		<!--主体开始-->
+		<div class="main">
+			<div class="main-left">
+				<div class="zhuanlan">
+					<div class="zhuanlan-1">
+						<h3>旅行家专栏</h3>
+						<a href="javascript:">专栏首页</a>
+					</div>
+					<div class="lbt">
+						<ul class="lbt-1">
+							<li><a href="javascript:"><img src="assets/images/yi.jpeg" alt=""></a></li>
+							<li><a href="javascript:"><img src="assets/images/er.jpeg" alt=""></a></li>
+							<li><a href="javascript:"><img src="assets/images/san.jpeg" alt=""></a></li>
+							<li><a href="javascript:"><img src="assets/images/si.jpeg" alt=""></a></li>
+							<li><a href="javascript:"><img src="assets/images/wu.jpeg" alt=""></a></li>
+						</ul>
+					</div>
+					<h2><a href="javascript:">北京夏天</a></h2>
+					<p>这就是我对夏天的第一个记忆，同时这或</p><p>许也造成了我日后对集体活动的反感继</p><p>而对集体的反叛？</p>
+				</div>
+				<div class="lvyou">
+					<div class="zhuanlan-2">
+						<h3>旅行攻略推荐</h3>
+						<a href="javascript:">更多</a>
+					</div>
+					<div class="qingdao">
+						<a href="javascript:"><img src="assets/images/qing.jpeg" alt="" width="110" height="155"></a>
+						<div class="yishi">
+							<h3><a href="javascript:" title="青岛">青岛</h3>
+							<p>详细的吃、住、行、景点、线路、实用信息</p>
+						</div>
+					</div>
+					<ul class="qingdao-1">
+						<li><a href="javascript:">-carly C</a>点评了思明区的 <a href="javascript:">7天优品厦门</a></li>
+						<li><a href="">蚂蜂窝用</a>点评了玉龙纳西族自治县的《印</li>
+						<li><a href="javascript:">王萍</a>点评了芝罘区的 <a href="javascript:">如家快捷酒店</a></li>
+						<li><a href="javascript:">肖焯尹</a>点评了清迈直辖县的 <a href="javascript:">松撇市场(Som</a></li>
+						<li><a href="javascript:">长安街上</a>点评了黄山区的 <a href="javascript:">黄山1314客栈</a></li>
+					</ul>
+				</div>
+				<div class="jl">
+					<a href="javascript:"><img src="assets/images/2.png" alt=""></a>
+					<a href="javascript:"><img src="assets/images/tian.jpg" alt="" width="260" height="260" class="tk"></a>
+					<a href="javascript:"><img src="assets/images/feiji.png" alt="" class="tk"></a>
+					<a href="javascript:"><img src="assets/images/hong.png" alt="" class="tk"></a>
+					<a href="javascript:"><img src="assets/images/logo.png" alt="" class="tk"></a>
+					<a href="javascript:"><img src="assets/images/logo1.png" alt="" class="tk"></a>
+					<a href="javascript:"><img src="assets/images/wenzi.png" alt="" class="tk"></a>
+					<a href="javascript:"><img src="assets/images/guanggao.png" alt="" class="tk"></a>
+				</div>
+				<div class="che">
+					<div class="zhuanlan-3">
+						<h3>我的活动</h3>
+						<a href="javascript:">正在进行</a>
+					</div>
+					<div class="qiche">
+						<a href="javascript:">
+							<div class="che-1">
+								<img src="assets/images/20.png" alt="">
+							</div>
+							<h3>免费招募，跟大咖探秘赤水河谷</h3>
+							<h4><爸爸去哪儿>轩轩等你来上课</h4>
+						</a>
+						<a href="javascript:">
+							<div class="che-1">
+								<img src="assets/images/21.jpeg" alt="">
+							</div>
+							<h3>吉利帝豪GS之行</h3>
+							<h4>开始动静音乐之旅</h4>
+						</a>
+						<a href="javascript:">
+						<div class="che-1">
+							<img src="assets/images/23.jpeg" alt="">
+						</div>
+							<h3>环球60城，“暑”你最会玩</h4>
+							<h4>6200元代金券等你来拿</h4>
+						</a>
+						<a href="javascript:">
+							<div class="che-1">
+								<img src="assets/images/24.png" alt="">
+							</div>
+							<h3>探索不为人知的秘境之旅</h3>
+							<h4>跟随小四去探索更多的丰富多彩</h4>
+						</a>
+						<a href="javascript:">
+							<div class="che-1">
+								<img src="assets/images/25.png" alt="">
+							</div>
+							<h3>亚洲航空 嘻游泰国</h3>
+							<h4>跟随亚洲航空 发现泰国 赢取机票</h4>
+						</a>
+						<a href="javascript:">
+							<div class="che-1">
+								<img src="assets/images/26.png" alt="">
+							</div>
+							<h3>梦回世界客都，醉游慢城梅州</h3>
+							<h4>看尽梅州风韵，醉心客家故里~</h4>
+						</a>
+						<a href="javascript:">
+							<div class="che-1">
+								<img src="assets/images/27.jpeg" alt="">
+							</div>
+							<h3>新奥迪A3，重色轻游</h3>
+							<h4>新奥迪A3，陪你领略世界的多彩</h4>
+						</a>
+						<a href="javascript:">
+							<div class="che-1">
+								<img src="assets/images/28.jpeg" alt="">
+							</div>
+							<h3>乐而雅体验馆计划</h3>
+							<h4>向世界轻快出发，千元大奖等你来</h4>
+						</a>
+						<a href="javascript:">
+							<div class="che-1">
+								<img src="assets/images/29.png" alt="">
+							</div>
+							<h3>一汽马自达CX-4走自己的路</h3>
+							<h4>坚持自我，来分享你的路吧！</h4>
+						</a>
+						<a href="javascript:">
+							<div class="che-1">
+								<img src="assets/images/30.png" alt="">
+							</div>
+							<h3>体验地道文化，感受当地生活</h3>
+							<h4>一起放慢节奏，细看全球绝美景致</h4>
+						</a>
+						<a href="javascript:">
+							<div class="che-1">
+								<img src="assets/images/31.png" alt="">
+							</div>
+							<h3>马蜂窝拍卖行</h3>
+							<h4>每周二：拍精美实物奖品</h4>
+						</a>
+					</div>
+				</div>
+				<div class="mfw">
+					<div class="zhuanlan-4">
+						<h3>加入蚂蜂窝</h3>
+						<a href="javascript:">更多职位></a>
+					</div>
+					<img src="assets/images/hr.jpg" alt="">
+					<ul class="zhiwei">
+						<li><a href="javascript:">广告销售经理<i class="iconfont icon-hot3"></i></a><span>申请职位></span></li>
+						<li><a href="javascript:">资深PHP开发工程师<i class="iconfont icon-hot3"></i></a><span>申请职位></span></li>
+						<li><a href="javascript:">广告执行经理</a><span>申请职位></span></li>
+					</ul>
+				</div>
+				<div class="jinzhan">
+					<div class="zhuanlan-5">
+						<h3>蚂蜂窝旅行网站最新进展</h3>
+					</div>
+					<ul>
+						<li>05月12日  <a href="javascript:">指路人俱乐部首期面基大会圆满成功</a></li>
+						<li>10月29日  <a href="javascript:">蚂蜂窝秋酷大趴完美收官&全纪录</a></li>
+						<li>09月29日  <a href="javascript:">蚂蜂窝秋酷大趴进入倒计时</a></li>
+						<li>09月20日  <a href="javascript:">手机写游记功能上线</a></li>
+						<li>08月24日  <a href="javascript:">蚂蜂窝C9计划·秋酷大趴开始报名</a></li>
+						<li>08月15日  <a href="javascript:">2016蚂蜂窝指路人全球招募</a></li>
+					</ul>
+				</div>
+		</div>
+		<div class="main-right">
+				<div class="remai">
+					<h3>爆款热卖</h3>
+				</div>
+				<div class="zhijiang">
+						<div class="tutu">
+							<a href=""><img src="assets/images/32.jpeg" alt="" width="220" height="135"></a>
+							<div class="dingwei">
+								<a href="javascript:">8点开抢</a>
+								<span>¥</span>
+								<strong>2299</strong>
+							</div>
+							<h3><a href="javascript:">【8月24日】歌诗达幸运号天津-长崎-下关-天津6天5晚邮轮之旅(5大主题餐厅+赠送2地岸上观光)</a></h3>
+							<div class="rmb"><a href="javascript:"></a> <strong>¥ 2299</strong><a href="javascript:">/人</a></div>
+						</div>
+						<div class="tutu">
+							<a href="javascript:"><img src="assets/images/35.gif" alt="" width="220" height="135"></a>
+							<div class="dingwei">
+								<a href="javascript:">8点开抢</a>
+								<span>¥</span>
+								<strong>3060</strong>
+							</div>
+							<h3><a href="javascript:">北京直飞柬埔寨吴哥5-6天自由行(包机直飞+赠送每人15kg行李托运+性价比高)</a></h3>
+							<div class="rmb"><a href="javascript:"></a> <strong>¥ 3060</strong><a href="javascript:">起/人</a></div>
+						</div>
+						<div class="tutu">
+							<a href="javascript:"><img src="assets/images/34.jpeg" alt="" width="220" height="135"></a>
+							<h3><a href="javascript:">深圳直飞芽庄5天4晚半自助游(全程四星/五星酒店可选/天堂湾一日游/珍珠乐园一日游/泥浆浴/赠滴漏咖啡)</a></h3>
+							<div class="rmb"><a href="javascript:"></a> <strong>¥ 2358</strong><a href="javascript:">起/人</a></div>
+						</div>
+					</div>
+					<div class="remen">
+						<ul>
+							<li class="rm-1"><a href="">热门游记</a><a href="javascript:"><span class="sx"><i class="iconfont icon-icon"></i>筛选</span></a></li>
+							<li class="rm-2">
+								<img src="assets/images/lu.png" alt="" width="67" height="50">
+								<a href="javascript:">北欧惊喜</a>
+							</li>
+							<li class="rm-3"><a href="javascript:">最新发表</a></li>
+							<li class="rm-4">
+								<i class="iconfont icon-bangzhudisc"></i><a href="javascript:">我要上首页</a>
+							</li>
+							<li class="rm-5"><a href="javascript:"><i class="iconfont icon-shenhebijijishibenxiezi"></i>写游记</a></li>
+						</ul>
+					</div>
+					<div class="lb-you">
+						<a href="javascript:"><img src="assets/images/35.jpeg" alt=""></a>
+						<h3><a href="javascript:">JAPAN再相遇--体验东京花火大会 漫步夏日...</a></h3>
+						<div class="app"><img src="assets/images/tianmao.png" alt=""><a href="javascript:">APP</a>
+							<div class="ewm">
+								<a href="javascript:"><img src="assets/images/45.png" alt="" width="110" height="150"></a>
+							</div>
+						</div>
+						<div class="duanluo">
+							<a href="javascript:">这次来 日本 ，一是为了看 东京 夏季的花火大会，二是为了来轻井泽度假放松下心情， 东京 不必说，来过n次，这次的感受也没有太大的不同，还是那个处处都便利有序且物质极 大丰 富的国际大...</a>
+						</div>
+						<div class="dibu">
+							<span class="dwei"><i class="iconfont icon-dingwei"></i><a href="javascript:">日本</a> , by</span>
+							<span class="touxiang">
+								<div class="touxiang-1">
+									<img src="assets/images/46.jpeg" alt="">
+								</div>
+								<a href="javascript:">渲子</a>
+							</span>
+							<span class="yanjing">
+								<i class="iconfont icon-yanjing"></i><a href="javascript:">3166/37</a>
+							</span>
+							<span class="zan"><h5>11</h5><a href="javascript:"><img src="assets/images/d-1.png" alt=""></a></span>
+						</div>
+					</div>
+					<div class="lb-you">
+						<a href="javascript:"><img src="assets/images/36.jpeg" alt=""></a>
+						<h3><a href="javascript:">罗源—孩子的海洋世界</a></h3>
+						<div class="app-1"><img src="assets/images/tianmao.png" alt=""><a href="javascript:">APP</a>
+							<div class="ewm-1">
+								<a href="javascript:"><img src="assets/images/45.png" alt="" width="110" height="150"></a>
+							</div>
+						</div>
+						<div class="duanluo">
+							<a href="javascript:">这次来 日本 ，一是为了看 东京 夏季的花火大会，二是为了来轻井泽度假放松下心情， 东京 不必说，来过n次，这次的感受也没有太大的不同，还是那个处处都便利有序且物质极 大丰 富的国际大...</a>
+						</div>
+						<div class="dibu">
+							<span class="dwei"><i class="iconfont icon-dingwei"></i><a href="javascript:">日本</a> , by</a></span>
+							<span class="touxiang">
+								<div class="touxiang-1">
+									<img src="assets/images/46.jpeg" alt="">
+								</div>
+								<a href="javascript:">渲子</a>
+							</span>
+							<span class="yanjing">
+								<i class="iconfont icon-yanjing"></i><a href="javascript:">3166/37</a>
+							</span>
+							<span class="zan"><h5>11</h5><a href="javascript:"><img src="assets/images/d-1.png" alt=""></a></span>
+						</div>
+					</div>
+					<div class="lb-you">
+						<a href="javascript:"><img src="assets/images/37.jpeg" alt=""></a>
+						<h3><a href="javascript:">【<i class="iconfont icon-xin"></i>带着美妞游世界<i class="iconfont icon-xin"></i>】之美国西海岸，洛杉...</a></h3>
+						<div class="duanluo">
+							<a href="javascript:">这次来 日本 ，一是为了看 东京 夏季的花火大会，二是为了来轻井泽度假放松下心情， 东京 不必说，来过n次，这次的感受也没有太大的不同，还是那个处处都便利有序且物质极 大丰 富的国际大...</a>
+						</div>
+						<div class="dibu">
+							<span class="dwei"><i class="iconfont icon-dingwei"></i><a href="javascript:">日本</a> , by</a></span>
+							<span class="touxiang">
+								<div class="touxiang-1">
+									<img src="assets/images/46.jpeg" alt="">
+								</div>
+								<a href="javascript:">渲子</a>
+							</span>
+							<span class="yanjing">
+								<i class="iconfont icon-yanjing"></i><a href="javascript:">3166/37</a>
+							</span>
+							<span class="zan"><h5>11</h5><a href="javascript:"><img src="assets/images/d-1.png" alt=""></a></span>
+						</div>
+					</div>
+					<div class="lb-you">
+						<a href="javascript:"><img src="assets/images/38.jpeg" alt=""></a>
+						<h3><a href="javascript:">山野寻花之雾灵山</a></h3>
+						<div class="duanluo">
+							<a href="javascript:">这次来 日本 ，一是为了看 东京 夏季的花火大会，二是为了来轻井泽度假放松下心情， 东京 不必说，来过n次，这次的感受也没有太大的不同，还是那个处处都便利有序且物质极 大丰 富的国际大...</a>
+						</div>
+						<div class="dibu">
+							<span class="dwei"><i class="iconfont icon-dingwei"></i><a href="javascript:">日本</a> , by</a></span>
+							<span class="touxiang">
+								<div class="touxiang-1">
+									<img src="assets/images/46.jpeg" alt="">
+								</div>
+								<a href="javascript:">渲子</a>
+							</span>
+							<span class="yanjing">
+								<i class="iconfont icon-yanjing"></i><a href="javascript:">3166/37</a>
+							</span>
+							<span class="zan"><h5>11</h5><a href="javascript:"><img src="assets/images/d-1.png" alt=""></a></span>
+						</div>			
+					</div>
+					<div class="lb-you">
+						<a href="javascript:"><img src="assets/images/39.jpeg" alt=""></a>
+						<h3><a href="javascript:">人在旅途33天（西北——中原——华东——闽南）</a></h3>
+						<div class="duanluo">
+							<a href="javascript:">这次来 日本 ，一是为了看 东京 夏季的花火大会，二是为了来轻井泽度假放松下心情， 东京 不必说，来过n次，这次的感受也没有太大的不同，还是那个处处都便利有序且物质极 大丰 富的国际大...</a>
+						</div>
+						<div class="dibu">
+							<span class="dwei"><i class="iconfont icon-dingwei"></i><a href="javascript:">日本</a> , by</a></span>
+							<span class="touxiang">
+								<div class="touxiang-1">
+									<img src="assets/images/46.jpeg" alt="">
+								</div>
+								<a href="javascript:">渲子</a>
+							</span>
+							<span class="yanjing">
+								<i class="iconfont icon-yanjing"></i><a href="javascript:">3166/37</a>
+							</span>
+							<span class="zan"><h5>11</h5><a href="javascript:"><img src="assets/images/d-1.png" alt=""></a></span>
+						</div>
+					</div>
+					<div class="lb-you">
+						<a href="javascript:"><img src="assets/images/40.jpeg" alt=""></a>
+						<h3><a href="javascript:">琅勃拉邦，清白流年游无欲之城</a></h3>
+						<div class="duanluo">
+							<a href="javascript:">这次来 日本 ，一是为了看 东京 夏季的花火大会，二是为了来轻井泽度假放松下心情， 东京 不必说，来过n次，这次的感受也没有太大的不同，还是那个处处都便利有序且物质极 大丰 富的国际大...</a>
+						</div>
+						<div class="dibu">
+							<span class="dwei"><i class="iconfont icon-dingwei"></i><a href="javascript:">日本</a> , by</a></span>
+							<span class="touxiang">
+								<div class="touxiang-1">
+									<img src="assets/images/46.jpeg" alt="">
+								</div>
+								<a href="javascript:">渲子</a>
+							</span>
+							<span class="yanjing">
+								<i class="iconfont icon-yanjing"></i><a href="javascript:">3166/37</a>
+							</span>
+							<span class="zan"><h5>11</h5><a href="javascript:"><img src="assets/images/d-1.png" alt=""></a></span>
+						</div>
+					</div>
+					<div class="lb-you">
+						<a href="javascript:"><img src="assets/images/41.jpeg" alt=""></a>
+						<h3><a href="javascript:">新西兰南北岛十天，前进最纯净的中土世界</a></h3>
+						<div class="duanluo">
+							<a href="javascript:">这次来 日本 ，一是为了看 东京 夏季的花火大会，二是为了来轻井泽度假放松下心情， 东京 不必说，来过n次，这次的感受也没有太大的不同，还是那个处处都便利有序且物质极 大丰 富的国际大...</a>
+						</div>
+						<div class="dibu">
+							<span class="dwei"><i class="iconfont icon-dingwei"></i><a href="javascript:">日本</a> , by</a></span>
+							<span class="touxiang">
+								<div class="touxiang-1">
+									<img src="assets/images/46.jpeg" alt="">
+								</div>
+								<a href="javascript:">渲子</a>
+							</span>
+							<span class="yanjing">
+								<i class="iconfont icon-yanjing"></i><a href="javascript:">3166/37</a>
+							</span>
+							<span class="zan"><h5>11</h5><a href="javascript:"><img src="assets/images/d-1.png" alt=""></a></span>
+						</div>
+					</div>
+					<div class="lb-you">
+						<a href="javascript:"><img src="assets/images/42.jpeg" alt=""></a>
+						<h3><a href="javascript:">相遇那天简单的默契 说好就从清晨开始旅行</a></h3>
+						<div class="duanluo">
+							<a href="javascript:">这次来 日本 ，一是为了看 东京 夏季的花火大会，二是为了来轻井泽度假放松下心情， 东京 不必说，来过n次，这次的感受也没有太大的不同，还是那个处处都便利有序且物质极 大丰 富的国际大...</a>
+						</div>
+						<div class="dibu">
+							<span class="dwei"><i class="iconfont icon-dingwei"></i><a href="javascript:">日本</a> , by</a></span>
+							<span class="touxiang">
+								<div class="touxiang-1">
+									<img src="assets/images/46.jpeg" alt="">
+								</div>
+								<a href="javascript:">渲子</a>
+							</span>
+							<span class="yanjing">
+								<i class="iconfont icon-yanjing"></i><a href="javascript:">3166/37</a>
+							</span>
+							<span class="zan"><h5>11</h5><a href="javascript:"><img src="assets/images/d-1.png" alt=""></a></span>
+						</div>
+					</div>
+					<div class="lb-you">
+						<a href="javascript:"><img src="assets/images/43.jpeg" alt=""></a>
+						<h3><a href="javascript:">诗与远方</h3>
+						<div class="duanluo">
+							<a href="javascript:">这次来 日本 ，一是为了看 东京 夏季的花火大会，二是为了来轻井泽度假放松下心情， 东京 不必说，来过n次，这次的感受也没有太大的不同，还是那个处处都便利有序且物质极 大丰 富的国际大...</a>
+						</div>
+						<div class="dibu">
+							<span class="dwei"><i class="iconfont icon-dingwei"></i><a href="javascript:">日本</a> , by</a></span>
+							<span class="touxiang">
+								<div class="touxiang-1">
+									<img src="assets/images/46.jpeg" alt="">
+								</div>
+								<a href="javascript:">渲子</a>
+							</span>
+							<span class="yanjing">
+								<i class="iconfont icon-yanjing"></i><a href="javascript:">3166/37</a>
+							</span>
+							<span class="zan"><h5>11</h5><a href="javascript:"><img src="assets/images/d-1.png" alt=""></a></span>
+						</div>
+					</div>
+					<div class="lb-you">
+						<a href="javascript:"><img src="assets/images/44.jpeg" alt=""></a>
+						<h3><a href="javascript:">激情四射的梦想</a></h3>
+						<div class="duanluo">
+							<a href="javascript:">这次来 日本 ，一是为了看 东京 夏季的花火大会，二是为了来轻井泽度假放松下心情， 东京 不必说，来过n次，这次的感受也没有太大的不同，还是那个处处都便利有序且物质极 大丰 富的国际大...</a>
+						</div>
+						<div class="dibu">
+							<span class="dwei"><i class="iconfont icon-dingwei"></i><a href="javascript:">日本</a> , by</a></span>
+							<span class="touxiang">
+								<div class="touxiang-1">
+									<img src="assets/images/46.jpeg" alt="">
+								</div>
+								<a href="javascript:">渲子</a>
+							</span>
+							<span class="yanjing">
+								<i class="iconfont icon-yanjing"></i><a href="javascript:">3166/37</a>
+							</span>
+							<span class="zan"><h5>11</h5><a href="javascript:"><img src="assets/images/d-1.png" alt=""></a></span>
+						</div>
+					</div>
+					<div class="fenye">
+						<span>共250页/3000条</span>
+						<a href="#" class="first">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">4</a>
+						<a href="#">5</a>
+						<a href="#">6</a>
+						<a href="#">7</a>
+						<a href="#">8</a>
+						<a href="#">9</a>
+						<a href="#" class="last">下一页>></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--主体结束-->
+		<div class="gao">
+			<a href="#"><img src="assets/images/ggao.jpeg" alt=""></a>
+		</div>
+		<!--脚部开始-->
+		<div class="end">
+			<div class="end-1">
+				<div class="end-2">
+					<h2>中国领先的自由行服务平台</h2>
+					<p>覆盖全球200多个国家和地区</p>
+					<p><span>100,000,000 </span>位旅行者</p>
+					<p><sapn>920,000 家国际酒店</p>
+					<p><span>21,000,000 </span>条真实点评</p>
+					<p><span>382,000,000</span> 次攻略下载</p>
+					<p><a href="#"><span>中国旅游行业第一部“玩法”</span></a></p>
+				</div>
+				<div class="end-2">
+					<h2>关于我们</h2>
+					<p><a href="#">关于蚂蜂窝</a></p>
+					<p><a href="#">网络信息侵权通知指引</a></p>
+					<p><a href="#">隐私政策</a></p>
+					<p><a href="#">服务协议</a></p>
+					<p><a href="#">联系我们</a></p>
+					<p><a href="#">加入蚂蜂窝</a></p>
+				</div>
+				<div class="end-2">
+					<h3>旅行服务</h3>
+					<ul class="end-lvxing">
+						<li><a href="#">旅游攻略</a></li>
+						<li><a href="#">旅游特价</a></li>
+						<li><a href="#">旅游问答</a></li>
+						<li><a href="#">订火车票</a></li>
+						<li><a href="#">APP下载</a></li>
+						<li><a href="#"><span>全球供应商入驻</span></a></li>
+					</ul>
+					<ul class="end-lvxing">
+						<li><a href="#">酒店预订</a></li>
+						<li><a href="#">国际租车</a></li>
+						<li><a href="#">旅游指南</a></li>
+						<li><a href="#">旅游资讯</a></li>
+					</ul>
+				</div>
+				<div class="erweima">
+						<div class="dingyue"><img src="assets/images/rw-1.gif" alt="">
+							<p>蜂窝自由行</p>
+							<p>订阅号</p>
+						</div>
+						<div class="dingyue"><img src="assets/images/rw-2.png" alt="">
+							<p>马蜂窝良品</p>
+							<p>官方服务号</p>
+						</div>
+				</div>
+			<div class="end-5">
+				<h3>关于我们</h3>
+				<div class="shiliangtu">
+					<a href="#"><i class="iconfont icon-weibo"></i></a>
+					<a href="#"><i class="iconfont icon-tengxun"></i></a>
+					<a href="#"><i class="iconfont icon-qqkongjian"></i></a>
+				</div>
+			</div>
+			</div>
+			<div class="jiaobu">
+				<a href="#">马可波罗</a>
+				<a href="#">Onlylady女人志</a>
+				<a href="#">艺龙旅游指南</a>
+				<a href="#">欣欣旅游网</a>
+				<a href="#">户外运动</a>
+				<a href="#">365音乐网</a>
+				<a href="#">爱问共享资料</a>
+				<a href="#">旅游网</a>
+				<a href="#">小說網</a>
+				<a href="#">學習啦</a>
+				<a href="#">游多多资助网</a>
+				<a href="#">问答</a>
+				<a href="#">火车时刻表</a>
+				<a href="#">驴妈妈旅游网</a>
+				<a href="#">好豆美食网</a>
+				<a href="#">二手车</a>
+				<a href="#">绿野户外</a>
+				<a href="#">途牛旅游网</a>
+				<a href="#">图吧</a>
+				<a href="#">suv联合越野</a>
+				<a href="#">手机浏览器</a>
+				<a href="#">上海地图</a>
+				<a href="#">天气预报查询</a>
+				<a href="#">同程旅游</a>
+				<a href="#">火车票</a>
+				<a href="#">携程旅游</a>
+				<a href="#">锦江旅游</a>
+				<a href="#">火車時刻表</a>
+				<a href="#">TripAdvisor</a>
+				<a href="#">天巡网</a>
+				<a href="#">短租房</a>
+				<a href="#">租租车</a>
+				<a href="#">五分旅游网</a>
+				<a href="#">酒店预订</a>
+				<a href="#">爱旅行网</a>
+				<a href="#">旅游</a>
+				<a href="#">旅游网</a>
+				<a href="#">web114结婚网</a>
+				<a href="#">车讯网</a>
+				<a href="#">遨游旅游网</a>
+				<a href="#">手机</a>
+				<a href="#">更多友情链接 >></a>
+			</div>
+			<div class="jiaobu-1">
+				<div class="wei-1"><img src="assets/images/jl-2.png" alt=""></div>
+				<div class="end-center">
+					<p>© 2017 Mafengwo.cn 京ICP备11015476号 京公网安备110105013401号 <a href="#">京ICP证110318号</a></p>
+					<p>营业执照 新出网证(京)字242号 全国统一客服电话： <span>4006-345-678网站地图</span></p>
+				</div>
+				<div class="tu-1"><img src="assets/images/jl-2.png" alt="" width="100"></div>
+				<div class="tu-1"><img src="assets/images/jl-3.png
+				" alt="" width="100"></div>
+				<div class="tu-1"><img src="assets/images/jl-4.png" alt="" width="100"></div>
+			</div>
+		</div>
+		<!--脚步结束-->
+	</div>
+	<script src="jquery.min.js"></script>
+	<script src="assets/js/index.js"></script>
 </body>
 </html>
