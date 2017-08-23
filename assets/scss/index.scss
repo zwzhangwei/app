@@ -11,12 +11,12 @@
 	}
 }
 .nav-left{
-	width:564px;
+	width:510px;
 	height:58px;
 	float:left;
 	padding:0 10px 0 25px;
 }
-.nav-left li{
+.nav-left >li{
 	float:left;
 }
 .nav-left .one a{
@@ -40,8 +40,25 @@
 .nav-h:hover{
 	border-bottom:6px solid #ff9d00;
 }
+.nav-h:hover a{
+	color:#FF9D00;
+}
 .zyx{
 	position:relative;
+}
+.zyx:hover .xl{
+	display:block;
+}
+.zyx:hover{
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	border-top:2px solid #ff9d00;
+}
+.zyx:hover >a{
+	color:#ff9d00;
+}
+.sq:hover >a{
+	color:#ff9d00;
 }
 .xl{
 	position:absolute;
@@ -49,9 +66,64 @@
 	left:0;
 	width:150px;
 	height:260px;
-	background:#fff;
+	background:#f8f8f8;
 	z-index:200;
 	border-radius:4px;
+	display:none;
+	a{
+		display:block;
+		color:#666;
+		margin:20px 0 20px 14px;
+	}
+}
+.sq{
+	position:relative;
+}
+.sq:hover{
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	border-top:2px solid #ff9d00;
+}
+.sq:hover .shequ{
+	display:block;
+}
+
+.shequ{
+	position:absolute;
+	top:58px;
+	left:0;
+	width:240px;
+	height:260px;
+	background:#f8f8f8;
+	border-radius:4px;
+	z-index:200;
+	display:none;
+	.fengmi{
+		float:left;
+		width:120px;
+		height:260px;
+		a{
+			clear:both;
+			display:block;
+			color:#666;
+			margin-bottom:48px;
+			margin-top:15px;
+			margin-left:14px;
+		}
+	}
+	.fengmi-1{
+		float:left;
+		width:120px;
+		height:260px;
+		a{
+			color:#666;
+			display:block;
+			margin-top:15px;
+			margin-bottom:15px;
+			margin-left:28px;
+			font-size:12px;
+		}
+	}
 }
 .nav-right{
 	width:183px;
